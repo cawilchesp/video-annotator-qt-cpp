@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Manual de Usuario</title>
+	</head>
+	<body style="font-size:12pt;font-family:helvetica">
+		<h2><a name="medicionesEscena">6. MEASUREMENTS ON THE SCENE</a></h2>
+			<p>
+				To start, choose the video you want to analyze, in <b>File &rarr; Open</b>. Subsequently, the user must stop the video in the frame on which the annotations are to be made, and its selection is made by pressing the button <b>Select frame</b>, located between the two image display windows. Immediately, controls for video annotations, necessary for taking measurements, will be activated.
+			</p>
+			<p>
+				For taking measurements, the video must be calibrated. The calibration status indicates whether the calibration file <b>(nameVideo) _CalibrationData.txt</b> is found in the same folder as the video file (see <a href="#figura13">Figure 13</a>). The user can perform the calibration process at any time, as long as a video frame has been selected for analysis.
+			</p>
+			<center>
+				<p><a name="figura13"><img style="width:80%;max-width:480px;height:auto" src="images/6_1EstadoCalibracion(EN).png"/></a></p>
+				<p>Figure 13. Calibration status (Top: calibrated video, bottom: uncalibrated video).</p>
+			</center>
+			<ul style="list-style-type: none">
+				<li><p><h3><a name="calibracion">6.1 Calibration process</a></h3></p></li>
+					<p>
+						The calibration process consists in the calculation of a homography that allows transforming a quadrilateral on the road in the video, in a rectangle of known dimensions (in meters) of the scene. The user must know what pixel positions on the video make up a quadrilateral, corresponding to a rectangle of known dimensions in the real scene.
+					</p>
+					<p>
+						Video calibration steps:
+						<ol>
+							<li style="color: red"><span style="color:black">
+							To start the calibration process, press the button &#x25BA;, which is next to the calibration status indicator (see <a href="#figura13">Figure 13</a>). A new window with the previously selected frame will appear (see <a href="#figura14">Figure 14</a>).</span></li>
+							<li style="color: red"><span style="color:black">Write the measurement in meters of the road length distance.</span></li>
+							<li style="color: red"><span style="color:black">Write the measurement in meters of the road width distance.</span></li>
+							<li style="color: red"><span style="color:black">Press the button <b>Start</b>.</span></li>
+							<li style="color: red"><span style="color:black">Indicate in the image, the points corresponding to the distances.
+								<ul style="list-style-type: none">
+									<li><span style="color: blue">Point 1</span>: Start of the distance "road length".</li>
+									<li><span style="color: blue">Point 2</span>: End of the distance "road length" and start of the distance "road width".</li>
+									<li><span style="color: blue">Point 3</span>: End of the distance "road width" and start of the distance "road length".</li>
+									<li><span style="color: blue">Point 4</span>: End of the distance "road length".</li>
+								</ul></span>
+								<p style="color:black">
+									Note that the "Length" measure corresponds to the distance in meters on the real scene between points 1 and 2, while the "Width" measure corresponds to the distance between points 2 and 3. When entering the last point of the quadrilateral, in the right window, the rectified image of the region defined by the user will appear, which corresponds to the rectangular area of known dimensions (see <a href="#figura15">Figure 15</a>).
+								</p>
+							</li>
+							<li style="color: red"><span style="color:black">If the user is satisfied with the transformation, when accepting, the calibration file will be saved.</span></li>
+						</ol>
+					</p>
+					<center>
+						<p><a name="figura14"><img style="width:80%;max-width:1000px;height:auto" src="images/6_2Calibracion(EN).png" /></a></p>
+						<p>Figure 14. Calibration process in a video.</p>
+					</center>
+					<center>
+						<p><a name="figura15"><img style="width:80%;max-width:1000px;height:auto" src="images/6_3Rectificacion(EN).png" /></a></p>
+						<p>Figure 15. Scene rectification.</p>
+					</center>
+				<li><p><h3><a name="mediciones">6.2 Measurements of distance on the road</a></h3></p></li>
+					<p>
+						To take measurements on the road, the <b>line</b> tool, of the shape annotations, is used. The user must select the initial point of the line, and then the other point of the line. If annotations of rectangle and ellipse shapes exist, the ends of the line can be attached to the center of these annotations, bringing the cursor closer to the center, which will change the its color to green, indicating that the center will be selected (see <a href="#figura16">Figure 16</a>).
+					</p>
+					<p>
+						In the information panel the data of the line will be recorded, presenting the distances in pixels and meters. If the video is not calibrated, the measurement in meters will be presented with a dash (-m).
+					</p>
+					<center>
+						<p><a name="figura16"><img style="width:80%;max-width:1000px;height:auto" src="images/6_4MedicionEscena(EN).png" /></a></p>
+						<p>Figure 16. Example of measurement on the scene.</p>
+					</center>
+			</ul>
+    </body>
+</html>

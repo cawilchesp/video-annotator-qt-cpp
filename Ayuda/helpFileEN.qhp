@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+    <namespace>trafficvideoannotator.qt.help</namespace>
+    <virtualFolder>helpdocs</virtualFolder>
+    <filterSection>
+        <toc>
+            <section title="1. General information" ref="1infoGenEN.html"></section>
+			<section title="2. Installation" ref="2instalacionEN.html"></section>
+			<section title="3. Settings" ref="3ConfiguracionEN.html"></section>
+			<section title="4. Video display" ref="4visualizacionEN.html"></section>
+			<section title="5. Video annotations" ref="5anotacionesEN.html">
+				<section title="5.1 Text annotations" ref="5anotacionesEN.html#anotacionesTexto"></section>
+				<section title="5.2 Shape annotations" ref="5anotacionesEN.html#anotacionesFormas"></section>
+				<section title="5.3 Zoom in, zoom out, and undo annotations" ref="5anotacionesEN.html#acercarAlejarDeshacer"></section>
+				<section title="5.4 Record of annotations" ref="5anotacionesEN.html#registroAnotaciones"></section>
+				<section title="5.5 Save annotations" ref="5anotacionesEN.html#guardarAnotaciones"></section>
+			</section>
+			<section title="6. Measurements on the scene" ref="6medicionesEN.html">
+				<section title="6.1 Calibration process" ref="6medicionesEN.html#calibracion"></section>
+				<section title="6.2 Measurements of distance on the road" ref="6medicionesEN.html#mediciones"></section>
+			</section>
+			<section title="7. Samples/examples in video" ref="7muestrasEN.html"></section>
+			<section title="8. Credits" ref="8CreditosEN.html"></section>
+        </toc>
+        <keywords>
+            <keyword name="Installation" ref="2instalacionEN.html"/>
+            <keyword name="Settings" ref="3ConfiguracionEN.html"/>
+			<keyword name="Video display" ref="4visualizacionEN.html"/>
+			<keyword name="Annotations" ref="5anotacionesEN.html"/>
+			<keyword name="Text annotations" ref="5anotacionesEN.html#anotacionesTexto"/>
+			<keyword name="Shape annotations" ref="5anotacionesEN.html#anotacionesFormas"/>
+			<keyword name="Zoom in" ref="5anotacionesEN.html#acercarAlejarDeshacer"/>
+			<keyword name="Zoom out" ref="5anotacionesEN.html#acercarAlejarDeshacer"/>
+			<keyword name="Undo" ref="5anotacionesEN.html#acercarAlejarDeshacer"/>
+			<keyword name="Record of annotations" ref="5anotacionesEN.html#registroAnotaciones"/>
+			<keyword name="Save annotations" ref="5anotacionesEN.html#guardarAnotaciones"/>
+			<keyword name="Measurements" ref="6medicionesEN.html"/>
+			<keyword name="Calibration" ref="6medicionesEN.html#calibracion"/>
+			<keyword name="Distance" ref="6medicionesEN.html#mediciones"/>
+			<keyword name="Samples" ref="7muestrasEN.html"/>
+			<keyword name="ROI" ref="7muestrasEN.html"/>
+        </keywords>
+        <files>
+            <file>1infoGenEN.html</file>
+            <file>2instalacionEN.html</file>
+            <file>3ConfiguracionEN.html</file>
+			<file>4visualizacionEN.html</file>
+			<file>5anotacionesEN.html</file>
+			<file>6medicionesEN.html</file>
+			<file>7muestrasEN.html</file>
+			<file>8CreditosEN.html</file>
+			<file>images/3Configuracion(EN).png</file>
+			<file>images/4_1CargarVideo(EN).png</file>
+			<file>images/4_2ErrorNumeroCuadro(EN).png</file>
+			<file>images/5_1SeleccionarCuadro(EN).png</file>
+			<file>images/5_2SeccionTexto.png</file>
+			<file>images/5_3EscribirAnotacion.png</file>
+			<file>images/5_4SeccionFormas(EN).png</file>
+			<file>images/5_5AnotacionRectangulo.png</file>
+			<file>images/5_6SeccionOpciones.png</file>
+			<file>images/5_7AmpliarImagen.png</file>
+			<file>images/5_8ImagenROI.png</file>
+			<file>images/5_9SeccionModo(EN).png</file>
+			<file>images/6_1EstadoCalibracion(EN).png</file>
+			<file>images/6_2Calibracion(EN).png</file>
+			<file>images/6_3Rectificacion(EN).png</file>
+			<file>images/6_4MedicionEscena(EN).png</file>
+			<file>images/7Muestra.png</file>
+        </files>
+    </filterSection>
+</QtHelpProject>

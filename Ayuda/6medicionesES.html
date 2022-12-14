@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Manual de Usuario</title>
+	</head>
+	<body style="font-size:12pt;font-family:helvetica">
+		<h2><a name="medicionesEscena">6. MEDICIONES SOBRE LA ESCENA</a></h2>
+			<p>
+				Para iniciar, se escoge el video que se quiere visualizar, en el menú <b>Archivo &rarr; Abrir</b>. Posteriormente, el usuario debe detener el video en el cuadro sobre el que se quieren hacer las mediciones, y su selección se realiza oprimiendo el botón <b>Seleccionar cuadro</b>, ubicado entre las 2 ventanas de presentación de imágenes. Inmediatamente, los controles para las anotaciones, necesarios para realizar mediciones, se activarán.
+			</p>
+			<p>
+				Para la toma de mediciones, se requiere que el video se encuentre calibrado. El estado de calibración indica si se encuentra el archivo de calibración <b>(nombreVideo)_CalibrationData.txt</b> en la misma carpeta que el archivo de video (ver <a href="#figura13">Figura 13</a>). El usuario puede realizar el proceso de calibración en cualquier momento, siempre y cuando se haya seleccionado algún cuadro de video para analizar.
+			</p>
+			<center>
+				<p><a name="figura13"><img style="width:80%;max-width:480px;height:auto" src="images/6_1EstadoCalibracion(ES).png"/></a></p>
+				<p>Figura 13. Estado de calibración (arriba: video calibrado, abajo: video no calibrado).</p>
+			</center>
+			<ul style="list-style-type: none">
+				<li><p><h3><a name="calibracion">6.1 Proceso de calibración</a></h3></p></li>
+					<p>
+						El proceso de calibración consiste en el cálculo de una homografía que permite transformar un cuadrilátero sobre las vías en el video, en un rectángulo de dimensiones conocidas (en metros) de la escena. El usuario debe conocer que posiciones en pixeles sobre el video conforman un cuadrilátero, correspondiente a un rectángulo de dimensiones conocidas en la escena real.
+					</p>
+					<p>
+						Pasos para la calibración del video:
+						<ol>
+							<li style="color: red"><span style="color:black">Para iniciar con el proceso de calibración, se debe presionar el botón &#x25BA;, que se encuentra junto al indicador de estado de calibración (ver <a href="#figura13">Figura 13</a>). Aparecerá una nueva ventana con el cuadro seleccionado previamente (ver <a href="#figura14">Figura 14</a>).</span></li>
+							<li style="color: red"><span style="color:black">Escribir la medida en metros de la distancia a lo largo de la vía.</span></li>
+							<li style="color: red"><span style="color:black">Escribir la medida en metros de la distancia a lo ancho de la vía.</span></li>
+							<li style="color: red"><span style="color:black">Presionar el botón <b>Empezar</b>.</span></li>
+							<li style="color: red"><span style="color:black">Indicar en la imagen, los puntos correspondientes a las distancias.
+								<ul style="list-style-type: none">
+									<li><span style="color: blue">Punto 1</span>: Inicio de la distancia "largo de la vía".</li>
+									<li><span style="color: blue">Punto 2</span>: Final de la distancia "largo de la vía" e inicio de la distancia "ancho de la vía".</li>
+									<li><span style="color: blue">Punto 3</span>: Final de la distancia "ancho de la vía" e inicio de la distancia "largo de la vía".</li>
+									<li><span style="color: blue">Punto 4</span>: Final de la distancia "largo de la vía".</li>
+								</ul></span>
+								<p style="color:black">
+									Observe que la medida "Largo" corresponde a la distancia en metros sobre la escena real entre los puntos 1 y 2, mientras que la medida "Ancho" corresponde a la distancia entre los puntos 2 y 3. Al ingresar el último punto del cuadrilátero, en la ventana derecha se presentará la imagen rectificada de la región delimitada por el usuario, la cual corresponde a la zona rectangular de dimensiones conocidas (ver <a href="#figura15">Figura 15</a>).
+								</p>
+							</li>
+							<li style="color: red"><span style="color:black">Si el usuario está conforme con la transformación, al aceptar, se guardará el archivo de calibración.</span></li>
+						</ol>
+					</p>
+					<center>
+						<p><a name="figura14"><img style="width:80%;max-width:1000px;height:auto" src="images/6_2Calibracion(ES).png" /></a></p>
+						<p>Figura 14. Proceso de calibración de un video.</p>
+					</center>
+					<center>
+						<p><a name="figura15"><img style="width:80%;max-width:1000px;height:auto" src="images/6_3Rectificacion(ES).png" /></a></p>
+						<p>Figura 15. Rectificación de la escena.</p>
+					</center>
+				<li><p><h3><a name="mediciones">6.2 Mediciones de distancia sobre la vía</a></h3></p></li>
+					<p>
+						Para tomar mediciones sobre la vía, se utiliza la herramienta "línea", de las anotaciones de formas. El usuario debe seleccionar el extremo inicial de la línea, y luego el extremo final de la línea. Si existen anotaciones de formas de rectángulos y elipses, los extremos de la línea se pueden acoplar al centro de estas anotaciones, acercando el cursor al centro, el cual cambiará su color a verde, indicando que se seleccionará el centro (ver <a href="#figura16">Figura 16</a>).
+					</p>
+					<p>
+						En el panel de información se registrarán los datos de la línea, presentando las distancias en píxeles y en metros. Si el video no está calibrado, la medición en metros se presentará con un guión (-m).
+					</p>
+					<center>
+						<p><a name="figura16"><img style="width:80%;max-width:1000px;height:auto" src="images/6_4MedicionEscena(ES).png" /></a></p>
+						<p>Figura 16. Ejemplo de medición sobre la escena.</p>
+					</center>
+			</ul>
+    </body>
+</html>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+    <namespace>trafficvideoannotator.qt.help</namespace>
+    <virtualFolder>helpdocs</virtualFolder>
+    <filterSection>
+        <toc>
+            <section title="1. Información General" ref="1infoGenES.html"></section>
+			<section title="2. Instalación" ref="2instalacionES.html"></section>
+			<section title="3. Configuración" ref="3ConfiguracionES.html"></section>
+			<section title="4. Visualización del video" ref="4visualizacionES.html"></section>
+			<section title="5. Anotaciones en video" ref="5anotacionesES.html">
+				<section title="5.1 Anotaciones de texto" ref="5anotacionesES.html#anotacionesTexto"></section>
+				<section title="5.2 Anotaciones en formas" ref="5anotacionesES.html#anotacionesFormas"></section>
+				<section title="5.3 Acercar, alejar, y deshacer anotaciones" ref="5anotacionesES.html#acercarAlejarDeshacer"></section>
+				<section title="5.4 Registro de anotaciones" ref="5anotacionesES.html#registroAnotaciones"></section>
+				<section title="5.5 Guardar las anotaciones" ref="5anotacionesES.html#guardarAnotaciones"></section>
+			</section>
+			<section title="6. Mediciones sobre la escena" ref="6medicionesES.html">
+				<section title="6.1 Proceso de calibración" ref="6medicionesES.html#calibracion"></section>
+				<section title="6.2 Mediciones de distancia sobre la vía" ref="6medicionesES.html#mediciones"></section>
+			</section>
+			<section title="7. Toma de muestras/ejemplos en video" ref="7muestrasES.html"></section>
+			<section title="8. Créditos" ref="8CreditosES.html"></section>
+        </toc>
+        <keywords>
+            <keyword name="Instalación" ref="2instalacionES.html"/>
+            <keyword name="Configuración" ref="3ConfiguracionES.html"/>
+			<keyword name="Visualización" ref="4visualizacionES.html"/>
+			<keyword name="Anotaciones" ref="5anotacionesES.html"/>
+			<keyword name="Anotaciones de texto" ref="5anotacionesES.html#anotacionesTexto"/>
+			<keyword name="Anotaciones en formas" ref="5anotacionesES.html#anotacionesFormas"/>
+			<keyword name="Acercar" ref="5anotacionesES.html#acercarAlejarDeshacer"/>
+			<keyword name="Alejar" ref="5anotacionesES.html#acercarAlejarDeshacer"/>
+			<keyword name="Deshacer" ref="5anotacionesES.html#acercarAlejarDeshacer"/>
+			<keyword name="Registro de anotaciones" ref="5anotacionesES.html#registroAnotaciones"/>
+			<keyword name="Guardar anotaciones" ref="5anotacionesES.html#guardarAnotaciones"/>
+			<keyword name="Mediciones" ref="6medicionesES.html"/>
+			<keyword name="Calibración" ref="6medicionesES.html#calibracion"/>
+			<keyword name="Distancia" ref="6medicionesES.html#mediciones"/>
+			<keyword name="Muestras" ref="7muestrasES.html"/>
+			<keyword name="ROI" ref="7muestrasES.html"/>
+        </keywords>
+        <files>
+            <file>1infoGenES.html</file>
+            <file>2instalacionES.html</file>
+            <file>3ConfiguracionES.html</file>
+			<file>4visualizacionES.html</file>
+			<file>5anotacionesES.html</file>
+			<file>6medicionesES.html</file>
+			<file>7muestrasES.html</file>
+			<file>8CreditosES.html</file>
+			<file>images/3Configuracion(ES).png</file>
+			<file>images/4_1CargarVideo(ES).png</file>
+			<file>images/4_2ErrorNumeroCuadro(ES).png</file>
+			<file>images/5_1SeleccionarCuadro(ES).png</file>
+			<file>images/5_2SeccionTexto.png</file>
+			<file>images/5_3EscribirAnotacion.png</file>
+			<file>images/5_4SeccionFormas(ES).png</file>
+			<file>images/5_5AnotacionRectangulo.png</file>
+			<file>images/5_6SeccionOpciones.png</file>
+			<file>images/5_7AmpliarImagen.png</file>
+			<file>images/5_8ImagenROI.png</file>
+			<file>images/5_9SeccionModo(ES).png</file>
+			<file>images/6_1EstadoCalibracion(ES).png</file>
+			<file>images/6_2Calibracion(ES).png</file>
+			<file>images/6_3Rectificacion(ES).png</file>
+			<file>images/6_4MedicionEscena(ES).png</file>
+			<file>images/7Muestra.png</file>
+        </files>
+    </filterSection>
+</QtHelpProject>

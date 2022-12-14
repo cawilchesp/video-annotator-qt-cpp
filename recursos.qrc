@@ -1,0 +1,39 @@
+<RCC>
+    <qresource prefix="/imagenes">
+        <file>Imagenes/BackwardFrame.png</file>
+        <file>Imagenes/BackwardPlay.png</file>
+        <file>Imagenes/ColorAmarillo.png</file>
+        <file>Imagenes/ColorAzul.png</file>
+        <file>Imagenes/ColorBlanco.png</file>
+        <file>Imagenes/ColorNegro.png</file>
+        <file>Imagenes/ColorRojo.png</file>
+        <file>Imagenes/ColorVerde.png</file>
+        <file>Imagenes/Deshacer.png</file>
+        <file>Imagenes/FastPlay.png</file>
+        <file>Imagenes/ForwardFrame.png</file>
+        <file>Imagenes/ForwardPlay.png</file>
+        <file>Imagenes/Pause.png</file>
+        <file>Imagenes/SlowPlay.png</file>
+        <file>Imagenes/Zoom.png</file>
+        <file>Imagenes/ZoomOut.png</file>
+        <file>Imagenes/NextFrameImage.png</file>
+        <file>Imagenes/PreviousFrameImage.png</file>
+        <file>Imagenes/Icono.png</file>
+        <file>Imagenes/escudoPuj.png</file>
+        <file>Imagenes/aboutQt.png</file>
+        <file>Imagenes/Folder.png</file>
+        <file>Imagenes/SaveImage.png</file>
+        <file>Imagenes/SaveText.png</file>
+        <file>Imagenes/Settings.png</file>
+        <file>Imagenes/DownTriangle.png</file>
+        <file>Imagenes/UpTriangle.png</file>
+        <file>Imagenes/Linea1.png</file>
+        <file>Imagenes/Linea2.png</file>
+        <file>Imagenes/Linea3.png</file>
+        <file>Imagenes/Linea4.png</file>
+        <file>Imagenes/Linea5.png</file>
+    </qresource>
+    <qresource prefix="/traducciones">
+        <file>ingles.qm</file>
+    </qresource>
+</RCC>
